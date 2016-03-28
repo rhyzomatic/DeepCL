@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bin_dir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+bin_dir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/dist/bin
 dist_dir=$(dirname ${bin_dir})
 
 export PATH=${bin_dir}:$PATH
